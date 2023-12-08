@@ -22,11 +22,10 @@ def museo_astar(red, inicio, fin):
     return mejor, trayectorias
 
 def estimacion_heuristica(nodo, objetivo):
-    # En este ejemplo, la estimación heurística es la longitud mínima de la trayectoria desde el nodo hasta el objetivo
+    #la estimación heurística es la longitud mínima de la trayectoria desde el nodo hasta el objetivo
     return len(mejor_camino_entre_nodos(red, nodo, objetivo))
 
 def mejor_camino_entre_nodos(red, inicio, fin):
-    # Función auxiliar para encontrar el mejor camino utilizando búsqueda en profundidad
     visitados = set()
     mejor_camino = []
 
@@ -55,8 +54,7 @@ red = {
     "G": ["D", "E", "H"],
     "H": ["F", "G"]
 }
-
-
+#Indicamos nodo de inicio y fin
 inicio = "A"
 fin = "H"
 
