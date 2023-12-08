@@ -56,5 +56,5 @@ def play_hangman_ai(word_list):
             break
 
 if __name__ == "__main__":
-    word_list = ["abcde", "python", "programming", "machine", "learning", "artificial", "intelligence"]
+    word_list = ["camilla", "computador", "programacion", "lenguaje", "artificial", "intelligencia"]
     play_hangman_ai(word_list)
